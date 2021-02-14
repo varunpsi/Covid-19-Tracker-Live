@@ -21,6 +21,10 @@ body {
   flex-direction: column;
 }
 
+.app__right h3 {
+  margin-top: 1rem;
+}
+
 .app__right .MuiCardContent-root {
   display: flex;
   flex-direction: column;
