@@ -19,8 +19,12 @@
   color: lightgreen !important;
 }
 
+.infoBox__title {
+  color: #cc1034 !important;
+}
+
 .infoBox__cases {
-  color: #cc1034;
+  color: #cc1034 ;
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 0.5rem;
@@ -31,4 +35,13 @@
   font-weight: 700 !important;
   font-size: 0.8rem !important;
   margin-top: 15px !important;
+}
+
+@media (max-width: 950px) {
+  .infoBox__cases {
+    font-size: 1.35rem;
+  }
+  .MuiTypography-body1 {
+    line-height: 2 !important;
+  }
 }
